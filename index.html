@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hog Rider</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Montserrat:wght@300;600&family=Odibee+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav class="fixed-top navbar navbar-expand border-bottom border-3 p-3">
+            <a class="navbar-brand float-start" href="Untitled1.html"><img class="img-fluid" src="https://blogger.googleusercontent.com/img/a/AVvXsEgwPNKD0aEl62zMZ3HBc7RXb3G8wcHd0Bz_2-o6bJQgZtH8nPskZBGvc0BB8cpgD-GC2glhoE16_vRFUrKLt_fhgC7JN5-nIcnaule3M0Zz9TSRvVx0apTmapK5lU1q_81lqt6zVHwE698xD6IKmOQ6CVk0UqUCpmlomD-Dje0JEWDT8QYHcJHg84QY" alt="logo" style="width:10%;"><span id="logo">&nbsp;Hog Rider</span></a>
+            <div class="collapse navbar-collapse"></div>
+            <div class="navbar-nav float-end">
+                <a class="nav-link" href="index.html">Menu</a>
+                <a class="nav-link" href="aboutus.html">About Us</a>
+            </div>
+        </nav>
+        <header>
+            <img src="https://wallpapercave.com/wp/wc1808419.jpg" alt="thereal" id="thereal" style="width: 105%; height:90%">
+        </header>
+      <nav>
+        <p>Elixir</p>
+        <p>Traps</p>
+        <p>Defenses</p>
+        <p>Potions</p>
+        <p>Books</p>
+      </nav>
+      <div id="page1">
+        
+      </div>
+        <div class="container-fluid">
+            <div class="row mb-5">
+                <div class="col-sm-8 mt-5">
+                    <h3 id="menu" class="mb-3">Menu</h3>
+                    <div class="row g-4">
+                        <div class="col-3">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEheh9JVT5dbSJ_F0oDbOQM2BxT4fjrjGLF_j_Az567U3HNNKB9qAvptt4Yk5-w7WIzx5cp7OWX-Er7Yp5LC9SMZEGI1duQuU0jaKIXWEp9bbV_A2LEGHUbjQrnySuDWZSG96S___79bcz_R1Rrvo9z49YjJ0XQI_pcxVNEf5qDR0mmGQ5MKRMZX4yGC" alt="blackcoffee" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Black Coffee</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 70</h6>
+                                    <button class="btn btn-sm float-end" id="btn1" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhlGwtKleVd-hswtKWFX02ihA6Ym-Mp-HD3TMHxTNIPLH5JK51kkmJZ-r3NXjx8rF8hlTTCqNFWgJFKs_W9UnbLZiECYiPFRwz3LX-L86702_mW2flhrDU-uFa2dTgZP9dzO639fZOAKetShcSVxfzHJz9ZCMoI9uhyhipGIyt6HiTv4v3SidLNrzGR" alt="espresso" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Espresso</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 80</h6>
+                                    <button class="btn btn-sm float-end" id="btn2" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhcQ6OjTqDikhz43CjzRXds-9Rd0-vgdXkrO3loU9b5vJd7gvpcr6fV-_Z0SWT8TH3N5y1KRIWZnBJ1LDJ5xeSdnm4h3dzuXitbzDGZqkcIWQYozyykc6xwAoaD2xA_SKGZdX0j7syzGhUPRb0Y3yW6WDC5-I3ESodom8zVpANYpOWjyYkpxn_DPbiC" alt="latte" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Latte</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 80</h6>
+                                    <button class="btn btn-sm float-end" id="btn3" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhOcSt-FwGQYOm5ZeJ5Vt1fnoACHviCMMyL7VnKANxQE-6DxZg23nWspuRLNLzDAbFY5j24V9GqMBbJRAQG52Im4uM6QR-VYc0z8yz3ECVoYjtmmtRm_mv5G8JLD0O5CVtMJM7B8x_T5OjOW3OAj1hBSb8SLb5z9pyk9CzQyAgyvrNj-bx1F9f6HTor" alt="cappuccino" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cappuccino</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 80</h6>
+                                    <button class="btn btn-sm float-end" id="btn4" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhamG9EZrGJJHmnQg5HwoU3bmvbodSIhKYRs1s6-cppu8_tPxXqWfYCiYLmNwhsESQbt6r20H95WBxsgrSBy3PvICErXl_sHBCT3taXGWyOOS4Go9-KRv0KwjzOgV6L8mqCcKw4ck_led6dqnAhcUu0Au1a6jDQXTY2z2l4C2wxanRDUTBvP4YEevdJ" alt="orangej" id="orangej" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Orange Juice</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 75</h6>
+                                    <button class="btn btn-sm float-end" id="btn5" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjyVzSw4U_VpVBM7eyloIbmX4VuDGQbdCGP7IpGfHxHEUM-YIQp1Bsbn5KKD4GNtpA7YpyjTgMbLdzBKiWKYgBs5EilHQ1phdPX-p8JOJqRdh_Q3pXWleUidkQcSZimtLU9eGx_4lkAg-LVfUrJbVyFAcPL5v6gkpfnpjwZaXQBQ5os5POlY__OdOh8" alt="applej" id="applej" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Apple Juice</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 75</h6>
+                                    <button class="btn btn-sm float-end" id="btn6" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEggmcIhwwqTxgRLXidlRPd8DaQZSTsJEGPzbG5xTsVs7Fm7kqi0vE9TOTV4-ztpBdOGBu8fwyPyV-fSippktmpmQpwNiZpvLwTISuy1cSA8RycybyzxbnFQGCh81gDdMmzq1J5gpH_kZCLAWA7Ob9Sp6m7ihqNyKZkZaQZJ23NjkRkV8LMflP2HMw8X" alt="pomegranatej" id="pomegranatej" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pomegranate Juice</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 75</h6>
+                                    <button class="btn btn-sm float-end" id="btn7" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgIgJnXfif8sickze36en8YJj_wXYlE9fc4gzr5_CEgc3mhtHzccwpNTygAGsOxbJoKloQKao6g2J0iVUB2dH7Ks0OwlGMC6cmvfK3_j6JSsJ1t4n58Tboe-qNmwuCZ4_nHE2ju677xS3-BKdQ48WYLgTKpF6NqFNhbE5Ss7lEhcZ1FnZjh5GrclGwU" alt="pineapplej" id="pineapplej" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pineapple Juice</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 75</h6>
+                                    <button class="btn btn-sm float-end" id="btn8" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-5">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEje5h00pMc5gOzWqP2WKmzrUpxT8Pba5vkSldInQPZNlTmStLLiKMTFwshBMCB54PfXFyQ85cKVZPk88eZFYnoTFVUUXrzRa6Dcbno2rr4JU0VttwFcBSc0QtOPd60VqsMeTZBkE7YGx4p5Mw2mras-zk4t7xptC360z_80JGXczA4E62hp9YV3ZfMW" alt="icedt" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Iced Tea</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 65</h6>
+                                    <button class="btn btn-sm float-end" id="btn9" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-5">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhQEt_eJjqIEEPKto90O-qdp9vlXv52HkDBoWy1ivG5Fdj-WC7qZ9BXQ39WeppLV1s50jdyf89kgsC1h8vo_MvJJXrVJ5G4ZRWerrxRLAX0UWBR0FbDdORd-QNcaaam66L8to38EIskUKZrIUs0znyy0hcgzMvimFGSGMsEJTo_RTOogsI9Yl7K0Rz4" alt="chocochip" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocolate Chip</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 10/piece</h6>
+                                    <button class="btn btn-sm float-end" id="btn10" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-5">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhakpEjD6rtJoaqYwnpMs4L3k43xQf_652bdc-ss6y4DQXZTQK2Zk31qSUSoo1fIPRMdgQYDnHplx7L1_eYHujUYXrDHWL2gVy5oB2gEroYqyw3-ALnzSOBC0HCLNO-G_OO1fHE7o72gVOdr-6vnfqSvaRzkBPLtKdaq587ZksBS48qCqyU4Mc-n71U" alt="bagel" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bagel</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 85</h6>
+                                    <button class="btn btn-sm float-end" id="btn11" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-5">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEh2iuWUXGzhLdX1S8pOOMw16QdJL-9lG8DC7Spy21hS0-Zt-knSDeLK-grTiPIzRE1jgTJuXKIIvmQxD4nHL_Uzh_aI31KRpJhfmUtDY0HuC_kXOENnza8kI0SmJ-u5Qj9a14_-btkUlIT3L7EBIva090Tj-kNCCnzoJ_d5M2N9VXMvvV_i29oPDZst" alt="cinnamon" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cinnamon Roll</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 85</h6>
+                                    <button class="btn btn-sm float-end" id="btn12" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiH1UgoMQiArHJCLc9zpMbxv1jHWFgd_Jg3JWHyB9C5St4_ysenAtsqpeuBeDI7MMipb1f0r-agFtRRPagEMEXnI49njpFAEN4gi6kLxPNiGFRBlVJRlwcwzMxJTizW7J_OC52zT-3cpa7L0Jqzn6NObyFmhqx96f5hq4iA6vZ03Z0Pc4SPNpd8Eu3N" alt="redvelvet" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Red Velvet Cake</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 450</h6>
+                                    <button class="btn btn-sm float-end" id="btn13" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEimtlQe66GOpZKx3pbpB63duAWLZ-MhLt4RVY7mtfErhHHDfQTSZswMGbcit5ICiTy6SOGj8k628vS94w0N0bGl54eYYqQ-tQYcY61qAu8zohC1kSa4bwrErJ88V9XlkYX9mCGdzySKg7v99fLnI2h94IluFsl8bK1EiIP52CD2pAxDCo8KZNiLuOwN" alt="chocoseasalt" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocolate Caramel Cake</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 450</h6>
+                                    <button class="btn btn-sm float-end" id="btn14" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEio5MVDnIBp4qyKL_yEkFmSJfSdyG79zVhUAmBdVJ5fQYzoclgikbdmYN7fFMDwQWPPWJoH-aa_FEBLXIltAdmqYqTEpzcSSIucP7K7QOarFENK2S1DGpdpiCoxLAxJ9e77P6iDUn3ejZz45b8_kdEHoInGBB-wWjlpNnB73IKcHcjQTRpzG6qZBuY8" alt="lemonrasp" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lemon Raspberry Cake</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 450</h6>
+                                    <button class="btn btn-sm float-end" id="btn15" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card h-100">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi5V7kbu4W0ao4a-D4tjK5arfVnaGPN5hVMgGdNx2iiz5cDeXbOYJ0MxY0_LLOzqr5jf61wV4X3-wlH5pk5IL3E8D7_A-3ZUWnrwri7hSg4oOPG2C5NnJg9Zn7qbHOUdf-I_YC5CoH2KSVSV_ZCKYPZvGp4k_BoXHB4fS97IY4cMukIcyH_Oi7pHqD5" alt="berrychoco" class="card-img-top border border-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocolate w/ Berry Cake</h5>
+                                    <h6 class="card-subtitle shopname mb-3 text-body-secondary">₱ 480</h6>
+                                    <button class="btn btn-sm float-end" id="btn16" onclick="addtoCart(event)">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Your cart</h5>
+                            <p id="smallp">Holy Grounds - Clark Cm Recto</p>
+                            <ul class="list-group list-group-flush" id="yourcart">
+                                <li class="list-group-item d-flex justify-content-center">
+                                    <em>No items in the cart.</em>
+                                </li>
+                            </ul>
+                            <h6 class="d-flex justify-content-between p-3">
+                                <span class="d-inline-block">Total</span>
+                                <span class="d-inline-block" id="amttotal">0</span>
+                            </h6>
+                            <div class="card-footer">
+                                <h5 class="mt-3">Delivery Details</h5>
+                                <form action="http://sirjm.infinityfreeapp.com/checkout.php" method="get">
+                                    <div class="mb-3">
+                                        <label for="cust_name" class="form-label">Name</label>
+                                        <input id="cust_name" type="text" class="form-control" name="cust_name" required value="miss ko na siya">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="cust_addr" class="form-label">Address</label>
+                                        <input id="cust_addr" type="text" class="form-control" name="cust_addr" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="cust_email" class="form-label">Email</label>
+                                        <input id="cust_email" type="email" class="form-control" name="cust_email" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <p class="form-control-text d-inline me-3"></p>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="addrtype" id="addrtype1" value="Home" required>
+                                            <label class="form=check-label" for="addrtype1">Home</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="addrtype" id="addrtype2" value="Business" required>
+                                            <label class="form=check-label" for="addrtype2">Business</label>
+                                            <input type="hidden" name="cust_order" id="cust_order">
+                                            <input type="hidden" name="restoname" id="restoname" value="Holy Grounds">
+                                        </div>
+                                    </div>
+                                    <div id="payment" class="mb-3">
+                                        <label for="mop" class="form-label" id="moplabel">Payment Method</label>
+                                        <select class="form-select border border-dark" name="mop" id="mop" required>
+                                            <option class="options icl" value="" selected disabled>Payment Method</option>
+                                            <option class="options">Cash</option>
+                                            <option class="options">Gcash</option>
+                                            <option class="options">Credit or Debit Card</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="submit" value="Checkout" class="btn btn-primary">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
